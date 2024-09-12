@@ -1,0 +1,378 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3e2b7;
+}
+
+.main_div{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    width: 1250px;
+    height: 100vh;
+    margin-left: 25px;
+    gap: 12px;
+}
+
+
+.container {
+    width: 300px;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 0;
+    height: 710px;
+    /* margin-top: 20px; */
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.edit-btn{
+    border:none;
+    background-color: transparent;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.user-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.user-name {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.user-role {
+    font-size: 14px;
+    color: #666;
+}
+
+.search-bar {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-left: -10px;
+}
+
+.chat-list {
+    list-style: none;
+    padding: 0;
+}
+
+.chat-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.chat-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-top: -20px;
+}
+
+.chat-content {
+    flex-grow: 1;
+}
+
+.chat-name {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.chat-message {
+    font-size: 14px;
+    color: #666;
+}
+
+.time {
+    font-size: 12px;
+    color: #999;
+}
+
+.chat-status {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.chat-status-icon {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #4CAF50;
+    margin-right: 5px;
+}
+
+.chat-status-text {
+    font-size: 12px;
+    color: #666;
+}
+
+
+
+.main-2{
+    width: 50%;
+    height: 700px;
+    /* background-color: rgba(128, 128, 128, 0.703); */
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-left: -60px;
+}
+.chat-container {
+    width: 500px;
+    height: 750px;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+.chat-header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #F5F7FB;
+    border-bottom: 1px solid #E0E0E0;
+  
+}
+.chat-header img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.chat-header .name {
+    font-weight: bold;
+    color: #0078FF;
+}
+.chat-header .status {
+    margin-left: auto;
+    color: green;
+}
+.chat-messages {
+    padding: 10px;
+    height: 400px;
+    overflow-y: auto;
+    overflow: hidden;
+}
+.message {
+    display: flex;
+    margin-bottom: 10px;
+}
+.message.sent {
+    justify-content: flex-end;
+}
+.message .avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.message.sent .avatar {
+    margin-left: 10px;
+    margin-right: 0;
+}
+.message .text {
+    max-width: 70%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #E0E0E0;
+    color: black;
+}
+.message.sent .text {
+    background-color: #0078FF;
+    color: white;
+}
+.message .file {
+    display: flex;
+    align-items: center;
+    background-color: #E0E0E0;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 70%;
+}
+.message .file img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+.message .file a {
+    color: #0078FF;
+    text-decoration: none;
+}
+.chat-footer {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #5dabff;
+    border-top: 1px solid #E0E0E0;
+    margin-top: 180px;
+    height: 80px;
+}
+.chat-footer input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #E0E0E0;
+    margin-right: 10px;
+}
+.chat-footer .icons {
+    display: flex;
+    align-items: center;
+}
+.chat-footer .icons i {
+    margin-right: 10px;
+    color: #0078FF;
+}
+.chat-footer .send-btn {
+    background-color: #0078FF;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+.container_2 {
+    background-color: white;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-left: -60px;
+    position: absolute;
+    margin-top: -375px;
+    height: 710px;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    border: none;
+    margin-top: -10px;
+    
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.title {
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 20px;
+}
+.actions {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.actions div {
+    text-align: center;
+}
+.actions i {
+    font-size: 24px;
+    color: #4a90e2;
+    background-color: #e6f0ff;
+    padding: 10px;
+    border-radius: 50%;
+}
+.actions p {
+    margin-top: 5px;
+    font-size: 14px;
+}
+.links {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.links div {
+    text-align: center;
+    font-size: 14px;
+    color: gray;
+}
+.attachments {
+    text-align: left;
+    margin-bottom: 10px;
+    font-weight: bold;
+    position: absolute;
+    margin-top: 30px;
+    
+}
+.attachment-icons {
+    display: flex;
+    justify-content: space-around;
+    /* margin-bottom: 20px; */
+    margin-top: 100px;
+}
+.attachment-icons div {
+    text-align: center;
+}
+.attachment-icons i {
+    font-size: 24px;
+    color: #4a90e2;
+    background-color: #e6f0ff;
+    padding: 10px;
+    border-radius: 10px;
+}
+.attachment-icons p {
+    margin-top: 5px;
+    font-size: 14px;
+}
+.view-all {
+    text-align: center;
+    margin-top: 50px;
+}
+.view-all button {
+    background-color: white;
+    border: 2px solid #4a90e2;
+    color: #4a90e2;
+    padding: 10px 20px;
+    font-weight: 900;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+.view-all button:hover{
+    background-color: #4e9af0;
+    color: white;
+    transition: all 0.5s ease-in-out;
+}
